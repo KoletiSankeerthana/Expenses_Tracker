@@ -3,7 +3,7 @@
 A simple, clean, and user-friendly **Expense Tracker Web App** built using **Streamlit**, **SQLite**, and **Python**.  
 It allows users to track daily expenses, manage categories, view summaries, and analyze spending patterns with charts.
 
-🌐 **Live App:** *[Add your deployed Streamlit URL here]*  
+🌐 **Live App:** *https://noteyourexpensesinexpensestracker.streamlit.app/*  
 📂 **Tech Stack:** Python, Streamlit, SQLite, Pandas, Plotly
 
 ---
@@ -60,4 +60,48 @@ It allows users to track daily expenses, manage categories, view summaries, and 
 ---
 
 ## 📁 Project Structure
+📦 expense-tracker
+┣ 📜 app.py # Main Streamlit application
+┣ 📜 expenses.db # SQLite database (auto-created)
+┣ 📜 requirements.txt # Python dependencies
+┗ 📜 README.md # Project documentation
+
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally:
+
+### **1️⃣ Clone the repository**
+```bash
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+
+2️⃣ Install dependencies
+
+Create a virtual environment (optional but recommended):
+pip install -r requirements.txt
+
+3️⃣ Run the app
+streamlit run app.py
+4️⃣ The app opens automatically in your browser
+
+📤 Deployment on Streamlit Cloud
+
+Push your project to GitHub
+
+Go to https://share.streamlit.io
+
+Connect GitHub → select your repository
+
+Deploy
+
+Done 🎉
+
+Make sure your repository includes:
+
+app.py
+requirements.txt
+
 
