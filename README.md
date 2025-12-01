@@ -75,14 +75,6 @@ Follow these steps to run the project locally:
 
 Here is the **clean and correct final format** for your **README / deployment instructions**, exactly as Streamlit Cloud expects.
 
-I fixed:
-
-✔ Correct Markdown formatting
-✔ Proper code blocks
-✔ Correct steps
-✔ No broken formatting
-✔ Easy to copy–paste into GitHub
-
 ---
 
 # ✅ **FINAL README (Clean & Correct Format)**
@@ -164,24 +156,6 @@ Your repository **must include**:
 ```
 app.py
 requirements.txt
-```
-
-Optional recommended files:
-
-```
-README.md
-images/
-```
-
----
-
-## 📄 Example `requirements.txt`
-
-```txt
-streamlit
-pandas
-plotly
-```
 
 ---
 
