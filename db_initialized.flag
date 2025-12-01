@@ -1,0 +1,27 @@
+import sqlite3
+
+def init_db():
+    conn = sqlite3.connect("expenses.db")
+    cur = conn.cursor()
+
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS users (
+            username TEXT PRIMARY KEY,
+            password TEXT
+        )
+    """)
+
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS expenses (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT,
+            amount REAL,
+            category TEXT,
+            date TEXT
+        )
+    """)
+
+    conn.commit()
+    conn.close()
+
+init_db()
