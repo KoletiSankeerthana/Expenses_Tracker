@@ -77,7 +77,7 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/your-username/expense-tracker.git
 cd expense-tracker
-
+------
 2️⃣ Install dependencies
 
 Create a virtual environment (optional but recommended):
